@@ -1,0 +1,20 @@
+/* CORES DE FUNDO DA GALERIA DE ARTES E OS LINKS */
+#art {
+    background: linear-gradient(45deg, #91202f, #73385e, #1d8d51, #bda427, #56865e, #805528, #895260);
+}
+
+#art #mainNavbar .nav-link:hover,
+#art h1,
+#art #mainNavbar .active,
+#art #rodape a:hover,
+#art #rodape a.active {
+    color: #a3592b;
+}
+
+figure {
+    border-color: #a3592b;
+}
+
+figcaption {
+    background-color: rgba(162, 99, 36, 0.5);
+}

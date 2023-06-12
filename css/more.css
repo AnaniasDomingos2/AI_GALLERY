@@ -1,0 +1,40 @@
+/* MORE */
+#more #mainNavbar .nav-link:hover,
+#more #mainNavbar .active,
+#more #rodape a:hover,
+#creator a:hover,
+#more #rodape a.active {
+    color: #255582;
+}
+
+figure {
+    border-color: #040b2f;
+}
+
+figcaption {
+    background-color: rgba(13, 50, 89, 0.5);
+}
+
+body {
+    background: url("../images/background/background_more.jpg");
+    background-position: top left;
+    height: 100vh;
+    background-size: cover;
+}
+
+.lead {
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    color: #050612;
+}
+
+.icon {
+    width: 25px;
+}
+
+#creator a,
+#tools a {
+    text-decoration: none;
+    color: #317696;
+}

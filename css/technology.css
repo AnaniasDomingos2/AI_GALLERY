@@ -1,0 +1,24 @@
+/* CORES DE FUNDO DA GALERIA DE TECNOLOGIA E OS LINKS */
+#technology {
+    background: linear-gradient(45deg, #255582, #82c2dc, #36377ddb, #c1c8e4);
+}
+
+#technology #mainNavbar .nav-link:hover,
+#technology #mainNavbar .active,
+#technology #rodape a:hover,
+#technology #rodape a.active {
+    color: #255582;
+}
+
+#technology h1 {
+    color: #021222;
+
+}
+
+figure {
+    border-color: #040b2f;
+}
+
+figcaption {
+    background-color: rgba(13, 50, 89, 0.5);
+}

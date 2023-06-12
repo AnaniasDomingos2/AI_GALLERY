@@ -1,0 +1,68 @@
+/* body {
+    background: linear-gradient(45deg, #5680e9, #84ceeb, #5ab9ea, #c1c8e4);
+} */
+
+
+
+/* C */
+
+#mainNavbar .nav-link {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 9px;
+}
+
+figure {
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    transition: all 1s;
+    position: relative;
+    display: flex;
+}
+
+figure:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 1;
+}
+
+figure:hover figcaption {
+    display: flex;
+}
+
+figcaption {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+b {
+    font-weight: 900;
+}
+
+/* RODAPÉ */
+#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:480px) {
+    figure:hover {
+        transform: scale(1.050, 1.050);
+        z-index: 1;
+    }
+}

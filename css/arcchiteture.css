@@ -1,0 +1,23 @@
+/* CORES DE FUNDO DA GALERIA DE ARQUITETURA E OS LINKS */
+#architeture {
+    background: linear-gradient(45deg, #446a8d, #598575, #7d905e, #717997);
+}
+
+#architeture #mainNavbar .nav-link:hover,
+#architeture #mainNavbar .active,
+#architeture #rodape a.active,
+#architeture #rodape a:hover {
+    color: #135155;
+}
+
+#architeture h1 {
+    color: #08341f;
+}
+
+figure {
+    border-color: #08341f;
+}
+
+figcaption {
+    background-color: rgba(21, 100, 61, 0.5);
+}

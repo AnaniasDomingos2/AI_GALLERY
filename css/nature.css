@@ -1,0 +1,19 @@
+/* CORES DE FUNDO DA GALERIA NATUREZA E OS LINKS */
+#nature {
+    background: linear-gradient(45deg, #2b975e, #80e5c3, #546a2a, #c1e4c6);
+}
+
+#nature #mainNavbar .nav-link:hover,
+#nature #mainNavbar .active,
+#nature #rodape a:hover,
+#nature #rodape a.active {
+    color: #197c47;
+}
+
+figure {
+    border-color: #197c47;
+}
+
+figcaption {
+    background-color: rgba(32, 142, 90, 0.5);
+}
